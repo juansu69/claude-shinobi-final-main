@@ -22,11 +22,14 @@ export default function RootLayout({
               Shinobi
             </h1>
             <nav className="flex gap-6">
-              <Link href="/blog" className="text-foreground hover:text-accent transition-colors">
+              <Link href="/blog" className="text-foreground hover:text-accent transition-colors underline">
                 Blog
               </Link>
-              <Link href="/preview" className="text-foreground hover:text-accent transition-colors">
+              <Link href="/preview" className="text-foreground hover:text-accent transition-colors underline">
                 Preview
+              </Link>
+              <Link href="/about" className="text-foreground hover:text-accent transition-colors underline">
+                About
               </Link>
             </nav>
           </div>
