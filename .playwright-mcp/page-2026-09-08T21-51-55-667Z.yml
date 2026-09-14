@@ -1,0 +1,152 @@
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - heading "Shinobi" [level=1] [ref=e4]
+      - navigation [ref=e5]:
+        - link "Blog" [ref=e6] [cursor=pointer]:
+          - /url: /blog
+        - link "Preview" [ref=e7] [cursor=pointer]:
+          - /url: /preview
+        - link "About" [ref=e8] [cursor=pointer]:
+          - /url: /about
+    - generic [ref=e9]:
+      - generic [ref=e10]: JS
+      - button "Switch to dark mode" [ref=e11] [cursor=pointer]
+  - generic [ref=e14]:
+    - generic [ref=e15]:
+      - heading "Typography & Theme Showcase" [level=1] [ref=e16]
+      - paragraph [ref=e17]: This page demonstrates our custom theme with beautiful typography pairing. Headings use the elegant Playfair Display serif font, while body text uses the clean and modern Rubik sans-serif font.
+    - generic [ref=e18]:
+      - heading "Design System Colors" [level=2] [ref=e19]
+      - paragraph [ref=e20]: Our theme features a purple primary color with carefully chosen complementary colors for success, warning, and danger states. The system automatically adapts between light and dark modes.
+    - generic [ref=e21]:
+      - heading "Interactive Components" [level=2] [ref=e22]
+      - paragraph [ref=e23]: Our button components showcase the theme colors in action with hover effects and focus states.
+      - generic [ref=e24]:
+        - button "Primary Button" [ref=e25] [cursor=pointer]
+        - button "Secondary Button" [ref=e26] [cursor=pointer]
+        - button "Success Button" [ref=e27] [cursor=pointer]
+        - button "Warning Button" [ref=e28] [cursor=pointer]
+        - button "Danger Button" [ref=e29] [cursor=pointer]
+      - heading "Disabled States" [level=3] [ref=e30]
+      - paragraph [ref=e31]: All button variants maintain consistent styling when disabled, with reduced opacity for clear visual feedback.
+      - generic [ref=e32]:
+        - button "Primary Disabled" [disabled] [ref=e33]
+        - button "Secondary Disabled" [disabled] [ref=e34]
+        - button "Success Disabled" [disabled] [ref=e35]
+        - button "Warning Disabled" [disabled] [ref=e36]
+        - button "Danger Disabled" [disabled] [ref=e37]
+      - heading "Practical Examples" [level=3] [ref=e38]
+      - paragraph [ref=e39]: Real-world button implementations showing different types and interactive behaviors.
+      - generic [ref=e40]:
+        - button "Submit Form" [ref=e41] [cursor=pointer]
+        - button "Reset Form" [ref=e42] [cursor=pointer]
+        - button "Save Changes" [ref=e43] [cursor=pointer]
+        - button "Proceed with Caution" [ref=e44] [cursor=pointer]
+        - button "Delete Account" [ref=e45] [cursor=pointer]
+    - generic [ref=e46]:
+      - heading "Card Component" [level=2] [ref=e47]
+      - paragraph [ref=e48]: Cards group related content with a colored left-border accent matching each theme variant.
+      - heading "Variants" [level=3] [ref=e49]
+      - generic [ref=e50]:
+        - generic [ref=e51]:
+          - generic [ref=e52]: Primary Card
+          - generic [ref=e53]: This card uses the primary theme color accent.
+        - generic [ref=e54]:
+          - generic [ref=e55]: Secondary Card
+          - generic [ref=e56]: This card uses the secondary theme color accent.
+        - generic [ref=e57]:
+          - generic [ref=e58]: Success Card
+          - generic [ref=e59]: This card uses the success theme color accent.
+        - generic [ref=e60]:
+          - generic [ref=e61]: Warning Card
+          - generic [ref=e62]: This card uses the warning theme color accent.
+        - generic [ref=e63]:
+          - generic [ref=e64]: Danger Card
+          - generic [ref=e65]: This card uses the danger theme color accent.
+      - heading "Sizes" [level=3] [ref=e66]
+      - generic [ref=e67]:
+        - generic [ref=e68]:
+          - generic [ref=e69]: Small Card
+          - generic [ref=e70]: Compact padding for dense layouts.
+        - generic [ref=e71]:
+          - generic [ref=e72]: Medium Card (default)
+          - generic [ref=e73]: Default size, suitable for most use cases.
+        - generic [ref=e74]:
+          - generic [ref=e75]: Large Card
+          - generic [ref=e76]: Generous padding for featured or prominent content.
+      - heading "With Footer" [level=3] [ref=e77]
+      - generic [ref=e78]:
+        - generic [ref=e79]:
+          - generic [ref=e80]: Saved
+          - generic [ref=e81]: Your changes have been saved successfully.
+          - generic [ref=e82]: "Last updated: just now"
+        - generic [ref=e83]:
+          - generic [ref=e84]: Error
+          - generic [ref=e85]: Something went wrong. Please try again.
+          - button "Retry" [ref=e87] [cursor=pointer]
+      - heading "Disabled State" [level=3] [ref=e88]
+      - generic [ref=e89]:
+        - generic:
+          - generic: Disabled Card
+          - generic: This card is disabled and non-interactive.
+        - generic:
+          - generic: Also Disabled
+          - generic: Opacity is reduced when disabled.
+          - generic: Footer is also muted
+    - generic [ref=e90]:
+      - heading "Icon Component" [level=2] [ref=e91]
+      - paragraph [ref=e92]: Icons display content inside a circular background, styled with theme variant colors and available in three sizes.
+      - heading "Variants" [level=3] [ref=e93]
+      - generic [ref=e94]:
+        - img "primary icon" [ref=e95]: ★
+        - img "secondary icon" [ref=e96]: ★
+        - img "success icon" [ref=e97]: ✓
+        - img "warning icon" [ref=e98]: "!"
+        - img "danger icon" [ref=e99]: ✕
+      - heading "Sizes" [level=3] [ref=e100]
+      - generic [ref=e101]:
+        - img "small icon" [ref=e102]: ★
+        - img "medium icon" [ref=e103]: ★
+        - img "large icon" [ref=e104]: ★
+      - heading "Disabled State" [level=3] [ref=e105]
+      - generic [ref=e106]:
+        - img "disabled primary" [ref=e107]: ★
+        - img "disabled success" [ref=e108]: ✓
+        - img "disabled danger" [ref=e109]: ✕
+    - generic [ref=e110]:
+      - heading "Modal Component" [level=2] [ref=e111]
+      - paragraph [ref=e112]: Modals overlay the page with a semi-transparent backdrop. Click any button to open a modal variant, press Escape or click the backdrop to close.
+      - heading "Variants" [level=3] [ref=e113]
+      - generic [ref=e114]:
+        - button "Open Primary" [active] [ref=e115] [cursor=pointer]
+        - button "Open Secondary" [ref=e116] [cursor=pointer]
+        - button "Open Success" [ref=e117] [cursor=pointer]
+        - button "Open Warning" [ref=e118] [cursor=pointer]
+        - button "Open Danger" [ref=e119] [cursor=pointer]
+      - heading "Sizes" [level=3] [ref=e120]
+      - generic [ref=e121]:
+        - button "Small Modal" [ref=e122] [cursor=pointer]
+        - button "Medium Modal" [ref=e123] [cursor=pointer]
+        - button "Large Modal" [ref=e124] [cursor=pointer]
+      - heading "No Title" [level=3] [ref=e125]
+      - button "No Title Modal" [ref=e127] [cursor=pointer]
+      - dialog [ref=e148]:
+        - generic [ref=e150]:
+          - generic [ref=e151]:
+            - heading "Primary Modal" [level=2] [ref=e152]
+            - button "Close modal" [ref=e153]: ✕
+          - paragraph [ref=e155]:
+            - text: This is a
+            - strong [ref=e156]: primary
+            - text: modal. It uses the primary theme color for its header accent. Press Escape or click outside to close.
+    - generic [ref=e128]:
+      - heading "Typography Hierarchy" [level=2] [ref=e129]
+      - generic [ref=e130]:
+        - heading "Main Heading (H1)" [level=1] [ref=e131]
+        - heading "Section Heading (H2)" [level=2] [ref=e132]
+        - heading "Subsection Heading (H3)" [level=3] [ref=e133]
+        - paragraph [ref=e134]: This is regular paragraph text using Rubik. It's clean, readable, and pairs beautifully with the Playfair Display headings. The contrast between the geometric sans-serif and elegant serif creates visual interest while maintaining excellent readability.
+        - paragraph [ref=e135]: This is smaller text in muted color, perfect for captions or secondary information.
+  - button "Open Next.js Dev Tools" [ref=e141] [cursor=pointer]
+  - alert [ref=e147]

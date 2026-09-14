@@ -1,3 +1,5 @@
+import Avatar from '@/components/ui/Avatar/Avatar'
+
 export default function BlogSidebar() {
   return (
     <div className="sticky top-8 space-y-8">
@@ -40,6 +42,7 @@ export default function BlogSidebar() {
             { action: 'New subscriber', time: '1 week ago', user: 'David Wilson' }
           ].map((item, index) => (
             <div key={index} className="flex items-start space-x-3">
+              <Avatar name={item.user} size="sm" />
               <div>
                 <p className="text-sm text-muted">{item.action}</p>
                 <p className="text-xs text-muted/60">{item.time}</p>

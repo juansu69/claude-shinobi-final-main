@@ -1,0 +1,295 @@
+- generic [ref=e2]:
+  - region "Notifications (F8)":
+    - list
+  - region "Notifications alt+T"
+  - main [ref=e3]:
+    - navigation [ref=e4]:
+      - generic [ref=e6]:
+        - button "Nexo Car Logo":
+          - img "Nexo Car Logo"
+        - generic [ref=e7]:
+          - button "Inicio" [ref=e8] [cursor=pointer]
+          - button "Servicios" [ref=e9] [cursor=pointer]
+          - button "Características" [ref=e10] [cursor=pointer]
+          - button "Testimonios" [ref=e11] [cursor=pointer]
+          - button "Contacto" [ref=e12] [cursor=pointer]
+    - generic [ref=e17]:
+      - generic [ref=e18]:
+        - heading "Nexo Car" [level=1] [ref=e19]
+        - paragraph [ref=e20]: Centro de Enseñanza Automovilista
+      - paragraph [ref=e21]: Formamos conductores íntegros, con enfoque en el servicio, la seguridad vial y la responsabilidad ciudadana.
+      - paragraph [ref=e22]: Tu Libertad Comienza Aquí
+      - button "Ver Cursos" [ref=e24] [cursor=pointer]
+    - generic [ref=e27]:
+      - generic [ref=e28]:
+        - heading "Nuestros Cursos" [level=2] [ref=e29]
+        - paragraph [ref=e30]: Ofrecemos una amplia variedad de cursos adaptados a tus necesidades
+      - generic [ref=e31]:
+        - generic [ref=e32]:
+          - generic [ref=e33]:
+            - img "Motocicleta" [ref=e34]
+            - generic [ref=e35]: $950.000
+          - generic [ref=e36]:
+            - heading "Curso A2" [level=3] [ref=e37]
+            - paragraph [ref=e38]: Motocicleta
+          - generic [ref=e39]:
+            - generic [ref=e40]:
+              - heading "Contenido del curso" [level=4] [ref=e41]
+              - list [ref=e42]:
+                - listitem [ref=e43]:
+                  - generic [ref=e45]: 28 horas teóricas
+                - listitem [ref=e46]:
+                  - generic [ref=e48]: 15 horas prácticas
+                - listitem [ref=e49]:
+                  - generic [ref=e51]: Examen teórico
+                - listitem [ref=e52]:
+                  - generic [ref=e54]: Exámenes médicos
+                - listitem [ref=e55]:
+                  - generic [ref=e57]: Derechos de tránsito (licencia)
+            - generic [ref=e58]:
+              - heading "Requisitos" [level=4] [ref=e59]
+              - list [ref=e60]:
+                - listitem [ref=e61]:
+                  - generic [ref=e63]: Saber leer y escribir
+                - listitem [ref=e64]:
+                  - generic [ref=e66]: Presentar documento de identidad
+                - listitem [ref=e67]:
+                  - generic [ref=e69]: Tener al menos 16 años cumplidos
+                - listitem [ref=e70]:
+                  - generic [ref=e72]: 2 fotografías recientes
+            - link "Inscribirse Ahora" [ref=e73] [cursor=pointer]:
+              - /url: https://wa.me/573160533373?text=Hola%2C%20estoy%20interesado%20en%20inscribirme%20al%20Curso%20A2%20(Motocicleta).%20%C2%BFPodr%C3%ADan%20brindarme%20m%C3%A1s%20informaci%C3%B3n%3F
+        - generic [ref=e74]:
+          - generic [ref=e75]:
+            - img "Automóvil" [ref=e76]
+            - generic [ref=e77]: $1.300.000
+          - generic [ref=e78]:
+            - heading "Curso B1" [level=3] [ref=e79]
+            - paragraph [ref=e80]: Automóvil
+          - generic [ref=e81]:
+            - generic [ref=e82]:
+              - heading "Contenido del curso" [level=4] [ref=e83]
+              - list [ref=e84]:
+                - listitem [ref=e85]:
+                  - generic [ref=e87]: 30 horas teóricas
+                - listitem [ref=e88]:
+                  - generic [ref=e90]: 20 horas prácticas
+                - listitem [ref=e91]:
+                  - generic [ref=e93]: Examen teórico
+                - listitem [ref=e94]:
+                  - generic [ref=e96]: Exámenes médicos
+                - listitem [ref=e97]:
+                  - generic [ref=e99]: Derechos de tránsito (licencia)
+            - generic [ref=e100]:
+              - heading "Requisitos" [level=4] [ref=e101]
+              - list [ref=e102]:
+                - listitem [ref=e103]:
+                  - generic [ref=e105]: Saber leer y escribir
+                - listitem [ref=e106]:
+                  - generic [ref=e108]: Presentar documento de identidad
+                - listitem [ref=e109]:
+                  - generic [ref=e111]: Tener al menos 16 años cumplidos
+                - listitem [ref=e112]:
+                  - generic [ref=e114]: 2 fotografías recientes
+            - link "Inscribirse Ahora" [ref=e115] [cursor=pointer]:
+              - /url: https://wa.me/573160533373?text=Hola%2C%20estoy%20interesado%20en%20inscribirme%20al%20Curso%20B1%20(Autom%C3%B3vil).%20%C2%BFPodr%C3%ADan%20brindarme%20m%C3%A1s%20informaci%C3%B3n%3F
+        - generic [ref=e116]:
+          - generic [ref=e117]:
+            - img "Público" [ref=e118]
+            - generic [ref=e119]: $1.400.000
+          - generic [ref=e120]:
+            - heading "Curso C1" [level=3] [ref=e121]
+            - paragraph [ref=e122]: Público
+          - generic [ref=e123]:
+            - generic [ref=e124]:
+              - heading "Contenido del curso" [level=4] [ref=e125]
+              - list [ref=e126]:
+                - listitem [ref=e127]:
+                  - generic [ref=e129]: 35 horas teóricas
+                - listitem [ref=e130]:
+                  - generic [ref=e132]: 30 horas prácticas
+                - listitem [ref=e133]:
+                  - generic [ref=e135]: Examen teórico
+                - listitem [ref=e136]:
+                  - generic [ref=e138]: Exámenes médicos
+                - listitem [ref=e139]:
+                  - generic [ref=e141]: Derechos de tránsito (licencia)
+            - generic [ref=e142]:
+              - heading "Requisitos" [level=4] [ref=e143]
+              - list [ref=e144]:
+                - listitem [ref=e145]:
+                  - generic [ref=e147]: Saber leer y escribir
+                - listitem [ref=e148]:
+                  - generic [ref=e150]: Presentar documento de identidad
+                - listitem [ref=e151]:
+                  - generic [ref=e153]: Tener al menos 18 años cumplidos
+                - listitem [ref=e154]:
+                  - generic [ref=e156]: 2 fotografías recientes
+            - link "Inscribirse Ahora" [ref=e157] [cursor=pointer]:
+              - /url: https://wa.me/573160533373?text=Hola%2C%20estoy%20interesado%20en%20inscribirme%20al%20Curso%20C1%20(P%C3%BAblico).%20%C2%BFPodr%C3%ADan%20brindarme%20m%C3%A1s%20informaci%C3%B3n%3F
+      - generic [ref=e158]:
+        - generic [ref=e159]:
+          - img "Capacitación y certificación para ingreso laboral" [ref=e161]
+          - heading "Capacitación y certificación para ingreso laboral" [level=3] [ref=e163]
+          - generic [ref=e165]:
+            - heading "Servicios incluidos" [level=4] [ref=e166]
+            - list [ref=e167]:
+              - listitem [ref=e168]:
+                - generic [ref=e170]: Curso teórico-práctico
+              - listitem [ref=e171]:
+                - generic [ref=e173]: Curso de manejo defensivo
+          - link "Consultar Disponibilidad" [ref=e175] [cursor=pointer]:
+            - /url: https://wa.me/573160533373?text=Hola%2C%20estoy%20interesado%20en%20la%20Capacitaci%C3%B3n%20y%20certificaci%C3%B3n%20para%20ingreso%20laboral.%20%C2%BFPodr%C3%ADan%20brindarme%20m%C3%A1s%20informaci%C3%B3n%3F
+        - generic [ref=e176]:
+          - img "Otros Servicios" [ref=e178]
+          - heading "Otros servicios" [level=3] [ref=e180]
+          - generic [ref=e182]:
+            - heading "Servicios disponibles" [level=4] [ref=e183]
+            - list [ref=e184]:
+              - listitem [ref=e185]:
+                - generic [ref=e187]: Clases de refuerzo
+              - listitem [ref=e188]:
+                - generic [ref=e190]: Renovación de licencia
+              - listitem [ref=e191]:
+                - generic [ref=e193]: Recategorización (de B1 a C1)
+              - listitem [ref=e194]:
+                - generic [ref=e196]: Duplicado de licencia
+              - listitem [ref=e197]:
+                - generic [ref=e199]: Cambio de documento
+          - link "Consultar Disponibilidad" [ref=e201] [cursor=pointer]:
+            - /url: https://wa.me/573160533373?text=Hola%2C%20estoy%20interesado%20en%20los%20otros%20servicios%20(Clases%20de%20refuerzo%2C%20Renovaci%C3%B3n%2C%20Recategorizaci%C3%B3n%2C%20Duplicado%2C%20Cambio%20de%20documento).%20%C2%BFPodr%C3%ADan%20brindarme%20m%C3%A1s%20informaci%C3%B3n%3F
+    - generic [ref=e205]:
+      - generic [ref=e206]:
+        - heading "¿Por qué elegirnos?" [level=2] [ref=e207]
+        - paragraph [ref=e208]: Somos la autoescuela líder en la región, comprometida con formar conductores responsables y seguros.
+        - generic [ref=e209]:
+          - generic [ref=e216]:
+            - heading "Profesionales Certificados" [level=3] [ref=e217]
+            - paragraph [ref=e218]: Instructores con años de experiencia y formación continua
+          - generic [ref=e225]:
+            - heading "Horarios Flexibles" [level=3] [ref=e226]
+            - paragraph [ref=e227]: Adaptamos las clases a tu disponibilidad, incluso fines de semana
+          - generic [ref=e236]:
+            - heading "Atención Personalizada" [level=3] [ref=e237]
+            - paragraph [ref=e238]: Grupos reducidos y seguimiento individualizado de cada alumno
+          - generic [ref=e248]:
+            - heading "Instalaciones Modernas y Seguras" [level=3] [ref=e249]
+            - paragraph [ref=e250]: Ambientes cómodos y vehículos en excelente estado que garantizan tu seguridad y aprendizaje.
+      - generic:
+        - generic:
+          - img "Instructor profesional enseñando a conducir"
+    - generic [ref=e254]:
+      - generic [ref=e255]:
+        - heading "Lo que dicen nuestros alumnos" [level=2] [ref=e256]
+        - paragraph [ref=e257]: Conductores satisfechos confían en nosotros
+      - generic [ref=e258]:
+        - generic [ref=e260]:
+          - paragraph [ref=e272]: "\"Increíble experiencia. Los instructores son muy pacientes y profesionales. Aprobé a la primera gracias a su dedicación.\""
+          - generic [ref=e273]:
+            - paragraph [ref=e274]: María González
+            - paragraph [ref=e275]: Curso B1 - 2025
+        - generic [ref=e277]:
+          - paragraph [ref=e289]: "\"La mejor autoescuela de la zona. Instalaciones modernas y motos nuevas. Totalmente recomendable.\""
+          - generic [ref=e290]:
+            - paragraph [ref=e291]: Carlos Rodríguez
+            - paragraph [ref=e292]: Curso A2 - 2025
+        - generic [ref=e294]:
+          - paragraph [ref=e306]: "\"Excelente preparación para conducir vehículos de transporte público. El trato es excepcional y los precios muy competitivos.\""
+          - generic [ref=e307]:
+            - paragraph [ref=e308]: Ana Martínez
+            - paragraph [ref=e309]: Curso C1 - 2025
+    - generic [ref=e313]:
+      - generic [ref=e314]:
+        - heading "¿Listo para comenzar?" [level=2] [ref=e315]
+        - paragraph [ref=e316]: Contacta con nosotros y te informaremos sin compromiso.
+        - generic [ref=e317]:
+          - generic [ref=e322]:
+            - paragraph [ref=e323]: Teléfono
+            - paragraph [ref=e324]: 604 595 93 33
+          - link [ref=e325] [cursor=pointer]:
+            - /url: https://wa.me/573160533373?text=Hola%2C%20me%20gustar%C3%ADa%20obtener%20informaci%C3%B3n%20sobre%20los%20cursos%20de%20Nexo%20Car
+            - generic [ref=e329]:
+              - paragraph [ref=e330]: WhatsApp
+              - paragraph [ref=e331]: 316 053 3373
+          - generic [ref=e337]:
+            - paragraph [ref=e338]: Email
+            - paragraph [ref=e339]: contacto@nexocar.co
+          - generic [ref=e345]:
+            - paragraph [ref=e346]: Dirección
+            - paragraph [ref=e347]: Calle 28A 81-23. Belén La Palma. Medellín - Colombia
+        - img "Estudiantes exitosos mostrando sus licencias de conducir" [ref=e349]
+      - generic [ref=e350]:
+        - generic [ref=e351]:
+          - heading "Solicita información" [level=3] [ref=e352]
+          - paragraph [ref=e353]: Rellena el formulario y nos pondremos en contacto contigo enseguida
+        - generic [ref=e355]:
+          - textbox "Nombre completo" [ref=e357]
+          - textbox "Email" [ref=e359]
+          - textbox "Teléfono" [ref=e361]
+          - textbox "¿En qué curso estás interesado?" [ref=e363]
+          - button "Enviar Solicitud" [ref=e364] [cursor=pointer]
+    - generic [ref=e366]:
+      - generic [ref=e367]:
+        - generic [ref=e368]:
+          - img "Nexo Car Logo"
+          - paragraph [ref=e369]: Centro de Enseñanza Automovilista
+          - paragraph [ref=e370]: Formamos conductores íntegros, con enfoque en el servicio, la seguridad vial y la responsabilidad ciudadana.
+        - generic [ref=e371]:
+          - heading "Nuestros Cursos" [level=4] [ref=e372]
+          - list [ref=e373]:
+            - listitem [ref=e374]:
+              - link "Curso A2 - Motocicleta" [ref=e375] [cursor=pointer]:
+                - /url: "#services"
+            - listitem [ref=e376]:
+              - link "Curso B1 - Automóvil" [ref=e377] [cursor=pointer]:
+                - /url: "#services"
+            - listitem [ref=e378]:
+              - link "Curso C1 - Público" [ref=e379] [cursor=pointer]:
+                - /url: "#services"
+            - listitem [ref=e380]:
+              - link "Capacitación y Certificación" [ref=e381] [cursor=pointer]:
+                - /url: "#services"
+            - listitem [ref=e382]:
+              - link "Curso teórico-práctico" [ref=e383] [cursor=pointer]:
+                - /url: "#services"
+            - listitem [ref=e384]:
+              - link "Manejo defensivo" [ref=e385] [cursor=pointer]:
+                - /url: "#services"
+            - listitem [ref=e386]: "Otros Servicios:"
+            - listitem [ref=e387]:
+              - link "Clases de refuerzo" [ref=e388] [cursor=pointer]:
+                - /url: "#services"
+            - listitem [ref=e389]:
+              - link "Renovación de licencia" [ref=e390] [cursor=pointer]:
+                - /url: "#services"
+            - listitem [ref=e391]:
+              - link "Recategorización (B1 a C1)" [ref=e392] [cursor=pointer]:
+                - /url: "#services"
+            - listitem [ref=e393]:
+              - link "Duplicado de licencia" [ref=e394] [cursor=pointer]:
+                - /url: "#services"
+            - listitem [ref=e395]:
+              - link "Cambio de documento" [ref=e396] [cursor=pointer]:
+                - /url: "#services"
+        - generic [ref=e397]:
+          - heading "Contacto" [level=4] [ref=e398]
+          - list [ref=e399]:
+            - listitem [ref=e400]:
+              - link "604 595 93 33" [ref=e403] [cursor=pointer]:
+                - /url: tel:6045959333
+            - listitem [ref=e404]:
+              - link "316 053 3373" [ref=e407] [cursor=pointer]:
+                - /url: https://wa.me/573160533373?text=Hola%2C%20me%20gustar%C3%ADa%20obtener%20informaci%C3%B3n%20sobre%20los%20cursos%20de%20Nexo%20Car
+            - listitem [ref=e408]:
+              - link "contacto@nexocar.co" [ref=e412] [cursor=pointer]:
+                - /url: mailto:contacto@nexocar.co
+            - listitem [ref=e413]:
+              - generic [ref=e417]: Calle 28A 81-23. Belén La Palma. Medellín - Colombia
+          - generic [ref=e418]:
+            - heading "Síguenos" [level=5] [ref=e419]
+            - link "Instagram" [ref=e421] [cursor=pointer]:
+              - /url: https://www.instagram.com/cea_nexocar?igsh=MW04MXBwNGxxa3VsaQ==
+          - paragraph [ref=e425]: Horario:Lunes a viernes:8:00 AM - 5:00 PMSábados8:00 AM - 12:00 M
+      - paragraph [ref=e427]: © 2025 Nexo Car - Centro de Enseñanza Automovilista. Todos los derechos reservados.
+    - link "Contactar por WhatsApp" [ref=e428] [cursor=pointer]:
+      - /url: https://wa.me/573160533373?text=Hola%2C%20me%20gustar%C3%ADa%20obtener%20informaci%C3%B3n%20sobre%20los%20cursos%20de%20Nexo%20Car

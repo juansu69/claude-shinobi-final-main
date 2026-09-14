@@ -2,6 +2,7 @@ import { GET_BLOG_POSTS } from '@/lib/queries'
 import { BlogPost } from '@/lib/types'
 import Link from 'next/link'
 import BlogSidebar from '@/components/BlogSidebar'
+import Avatar from '@/components/ui/Avatar/Avatar'
 
 async function getPosts(): Promise<BlogPost[]> {
   const response = await fetch(process.env.HYGRAPH_ENDPOINT!, {
@@ -53,6 +54,7 @@ function BlogPostCard({ post }: { post: BlogPost }) {
             </p>
             <div className="flex items-center text-sm text-muted">
               <div className="flex items-center space-x-2">
+                <Avatar name={post.createdBy.name} size="sm" />
                 <span>By {post.createdBy.name}</span>
               </div>
               <span className="mx-3">•</span>

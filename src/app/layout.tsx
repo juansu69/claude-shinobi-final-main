@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import DarkModeToggle from "@/components/DarkModeToggle";
 import Link from "next/link";
+import Avatar from "@/components/ui/Avatar/Avatar";
 
 export const metadata: Metadata = {
   title: "Shinobi",
@@ -33,7 +34,10 @@ export default function RootLayout({
               </Link>
             </nav>
           </div>
-          <DarkModeToggle />
+          <div className="flex items-center gap-3">
+            <Avatar name="Juan Suarez" size="md" />
+            <DarkModeToggle />
+          </div>
         </header>
         {children}
       </body>
